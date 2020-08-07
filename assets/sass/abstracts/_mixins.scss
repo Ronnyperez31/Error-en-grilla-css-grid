@@ -1,5 +1,11 @@
 @mixin respond-to($break-point){
-    @media (max-width:$break-point){
+    @media  (max-width:$break-point){
       @content
     }
   };
+
+@mixin respond-to-min($break-point){
+    @media  (min-width:$break-point){
+      @content
+    }
+  }
