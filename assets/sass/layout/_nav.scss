@@ -1,0 +1,30 @@
+/* Navbar */
+* {
+    box-sizing: border-box;
+}
+.navbar{
+    border-bottom: 1px solid $bordes;
+    
+    &__logo{
+        text-align: left;
+        padding-top: 1em;
+        font-size: $font-xlarge;
+        font-weight: $fuente-bold;
+    }
+}
+
+.datos{
+    
+    &__a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: $font-small;
+    }
+    &__item{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    &__input{
+        border-radius: 10px;
+    }
+}
